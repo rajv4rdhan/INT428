@@ -109,7 +109,7 @@ docker run -p 3000:80 tuneloom-frontend
 
 ## 🔄 System Architecture
 
-![System Architecture](https://raw.githubusercontent.com/rajv4ardhan/int428/main/public/arc.png)
+![System Architecture](https://raw.githubusercontent.com/rajv4rdhan/INT428/refs/heads/master/public/arc.png)
 
 The system follows a ReAct (Reasoning and Acting) pattern where the Langchain agent:
 1. Receives a user query through the React frontend
