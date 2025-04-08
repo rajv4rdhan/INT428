@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-areas:
+      "ytplayer playlist"
+      "chat playlist";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .ytplayer {
+    grid-area: ytplayer;
+    background: #c7b6b6;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .chat {
+    grid-area: chat;
+    background: #91ac96;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .playlist {
+    grid-area: playlist;
+    background: #c59d9d;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
