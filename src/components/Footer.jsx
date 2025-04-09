@@ -11,7 +11,7 @@ export default function Footer() {
                 <span className="text-sm font-bold">M</span>
               </div>
               <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-                MeloMind
+                TuneLoom
               </span>
             </div>
             <p className="text-sm text-gray-400 max-w-xs">
@@ -87,7 +87,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            © {new Date().getFullYear()} MeloMind. All rights reserved.
+            © {new Date().getFullYear()} Tuneloom. All rights reserved.
           </p>
 
           <div className="flex gap-4">

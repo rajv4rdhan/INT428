@@ -23,7 +23,7 @@ export default function Navbar({ scrolled, isAuthenticated }) {
             <span className="text-xl font-bold">M</span>
           </div>
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-            TuneLooom
+            TuneLoom
           </span>
         </div>
 
