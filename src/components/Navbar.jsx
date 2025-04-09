@@ -19,8 +19,10 @@ export default function Navbar({ scrolled, isAuthenticated }) {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <div className="h-10 w-10 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center">
-            <span className="text-xl font-bold">M</span>
+          <div className="h-10 w-10 rounded-full  flex items-center justify-center">
+            <span className="text-xl font-bold">
+              <img src="/vite.svg" alt="Logo" className="h-8 w-8" />
+            </span>
           </div>
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
             TuneLoom
