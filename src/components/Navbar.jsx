@@ -8,7 +8,6 @@ export default function Navbar({ scrolled, isAuthenticated }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const handleLogout = () => {
     localStorage.removeItem('authToken');
-    // Set token to null in state if you have it in component state
     window.location.reload();
   };
   return (
